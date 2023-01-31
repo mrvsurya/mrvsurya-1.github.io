@@ -3,16 +3,17 @@ h1 {
 }
 
 h2 {
-    color: #00ff00;
+    color: #6d00a8;
 }
 
 h4.job-title {
+    color: maroon;
 }
 
 h2#menu {
     font-weight: bold;
-    font-size: 14px;
-    color: purple;
+    font-size: 30px;
+    color: #718000;
 }
 
 a {

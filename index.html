@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html>
-<!-- https://replit.com/@mrjsng/HTML-CSS-Intro -->
+<!-- https://replit.com/@mrvsurya/HTML-CSS-Intro -->
 <head>
 <meta charset="utf-8">
 <title>My Portfolio</title>
+<!-- External CSS -->
 <link rel="stylesheet" type="text/css" href="css/style.css">
+
+<!-- Internal CSS -->
+<style>
+    body {background-color: powderblue;}
+    h1   {color: blue;}
+    p    {color: black;}
+</style>
 </head>
 
 <body>
@@ -28,14 +36,19 @@
         <li>
             <a href="#contact" class="navlink">Contact</a>
         </li>
+        <li>
+            <a href="#test" class="navlink">Test</a>
+        </li>
     </ul>
 </header>
 <!-- End header -->
 
 <div id="lead">
     <div id="lead-content">
-        <h1>Ryan Fitzgerald</h1>
-        <h2 class>Software Engineer</h2>
+
+        <!-- Inline CSS example -->
+        <h1 style="font-size: 72px">Ryan Fitzgerald</h1>
+        <h2 id="menu">Software Engineer</h2>
         <a href="#" class="btn-rounded-white">Download Resume</a>
         <a href="#education"> Jump to Education</a>
     </div>
@@ -105,7 +118,7 @@
     <div class="education-block">
         <h3>University of Ottawa</h3>
         <span class="education-date">Sept 2016 - Sept 2017</span>
-        <h4>Bachelor of Science in Computer Science</h4>
+        <h4 id="test">Bachelor of Science in Computer Science</h4>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
         </p>
